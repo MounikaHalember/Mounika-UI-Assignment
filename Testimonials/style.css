@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    font-family: StagSans;
+    overflow: auto;
+    }
+
+.main{
+    height: 600px;
+    background-image: url("Banner_mage.png")!important;
+    background-size: cover!important;
+    background-attachment: fixed!important;
+}
+
+.left-form{
+    margin: 50px 0px 0 0px;
+    color: white;
+}
+.left-form-desc{
+    margin-top: 50px;
+}
+.left-form-desc ul{
+    list-style: none;
+}
+.left-form-desc ul li{
+    display: inline ;
+    margin: 10px;
+}
+.right-form{
+ background-color: white;
+ padding: 20px 40px;
+ border:1px solid white;
+}
+.bone-marrow-transplant {
+    color: #FFFFFF;
+    background-image:linear-gradient(-45deg, #17EAD9 0%, #6078EA 100%);
+    font-family: StagSans;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    width: 450px;
+    text-align: left;
+  }
+.main-container{
+    margin:20px 80px!important;
+    clear:both;
+
+}
+.heading{
+    color:#5DC1B0;
+    position:relative;
+}
+.card h5{
+    color:#3B5998;
+
+}
+.container button{
+    color: #FFFFFF;
+    background-image:linear-gradient(-45deg, #17EAD9 0%, #6078EA 100%);
+}
+.container .john{
+    position: relative!important;
+}
+
+.container .john .row1{
+    padding-right: 100px!important;
+    margin-right: 100px;
+}
+.container .john::after{
+    content:"”";
+    color: #000000;
+    position: absolute !important;;
+    top: 0 !important;;
+    right: -5px !important;;
+  font-size: 213px;
+  line-height: 256px;
+  opacity: 0.046107700892857144;
+  text-align: left;
+}
+.card{
+    text-align:center;
+}
+.section1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto !important;
+}
+.section2 ul{
+    list-style: none;
+}
+.section2 ul li::before{
+    content:"\2022";
+    color:red;
+    font-size:40px;
+    display: inline;
+    font-weight: bold;
+    margin:0 15px;
+
+}
+.container{
+    margin: 50px;
+}
+.card-header{
+    text-align: left;
+}
+.btn-link{
+    color:#007bb5!important;
+    font-weight: bold!important;
+}
+.btn-link i{
+    display: inline;
+    cursor: pointer;
+}
+.accordion .card button{
+    background-color: white!important;
+    color:#007bb5!important;
+    font-weight: bold!important;
+}
+.section3 img{
+    float:left;
+}
+.icons{
+    text-align: center;
+    margin-top: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: white;
+    color: rgb(236, 11, 60);
+  }
+a img{
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    font-size:40px !important;
+    position:fixed !important;
+    bottom: 50px;
+    right: 50px;
+}
+.footer hr{
+    background-color: white !important;
+    z-index: 1;
+    margin:10px 50px;
+}
+.footer{
+    margin: 0;
+    background-color: #272727;
+    height:200px !important;
+    width:100%;
+}
